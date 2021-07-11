@@ -16,15 +16,32 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:background="@drawable/pic04"
+
         >
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="500dp"
-            android:id="@+id/tv_login"
-            android:padding="10dp">
+            android:layout_height="450dp"
+            android:orientation="vertical"
+            android:gravity="bottom">
 
-        </TextView>
+            <TextView
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Lanjut"
+                android:layout_marginTop="20dp"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_data_anak_next"
+                android:padding="10dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
 
 
     </LinearLayout>

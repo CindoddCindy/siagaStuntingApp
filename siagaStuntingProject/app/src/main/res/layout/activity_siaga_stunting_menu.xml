@@ -10,13 +10,73 @@
     tools:context=".view.SiagaStuntingMenu">
 
     <LinearLayout
-        android:gravity="center"
-        android:layout_gravity="center"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:background="@drawable/pic08"
         >
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/menu_vidoe_edukasi"
+                android:padding="10dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/menu_resep_makanan"
+                android:padding="10dp">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/menu_vidoe_pengolahan_pangan"
+                android:padding="10dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/pengukuran_status_gizi"
+                android:padding="10dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
 
     </LinearLayout>
 

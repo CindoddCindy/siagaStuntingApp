@@ -17,6 +17,31 @@
         android:orientation="vertical"
         android:background="@drawable/pic05"
         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:orientation="vertical"
+            android:gravity="bottom">
+
+            <TextView
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="Lanjut"
+                android:layout_marginTop="20dp"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_data_ibu_next"
+                android:padding="10dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
     </LinearLayout>
 
 
