@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cindodcindy.siagastunting">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SiagaStunting">
+        <activity android:name=".view.HasilGiziStatusBunda"></activity>
+        <activity android:name=".view.HasilStatusGizi" />
+        <activity android:name=".view.StatusUkurGizi" />
+        <activity android:name=".view.MengukurGizi" />
+        <activity android:name=".view.SiagaStuntingMenu" />
+        <activity android:name=".view.WelcomeBunda" />
+        <activity android:name=".view.WelcomeAnak" />
+        <activity android:name=".view.IsiDataIbu" />
+        <activity android:name=".view.IsiDataAnak" />
+        <activity android:name=".view.PilihMenu" />
+        <activity android:name=".view.LoginSignUp" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
